@@ -18,7 +18,7 @@
  * ---------------------------------------------------------------
  */
 // Debug mode
-define('DEBUG', true);
+define('DEBUG', false);
 
 // Database settings
 define('DB_HOST', 'localhost');
