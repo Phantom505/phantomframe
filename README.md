@@ -146,7 +146,7 @@ $user = $this->db->fetch("SELECT * FROM users WHERE id = ?", [$id]);
 
 // Adding a record
 $id = $this->db->insert('users', [
-    'name' => 'Иван',
+    'name' => 'Ivan',
     'email' => 'ivan@example.com',
     'password' => password_hash('password', PASSWORD_DEFAULT)
 ]);
