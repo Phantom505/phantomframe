@@ -41,8 +41,8 @@ Open the `config/config.php` file and configure the database connection settings
 ```php
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'phantomframe');
-define('DB_USER', 'phantom');
-define('DB_PASS', '');
+define('DB_USER', 'db_user');
+define('DB_PASS', 'db_pass');
 ```
 
 ## Routing
