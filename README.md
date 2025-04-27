@@ -17,7 +17,7 @@ PhantomFrame is a simple and lightweight PHP micro-framework that demonstrates a
 /app/                - main application code
   /Controllers/      - controllers
   /Models/           - models
-  /Views/            - performances
+  /Views/            - views
 /config/             - configuration files
 /core/               - framework core
 /public/             - public files (CSS, JS, etc.)
