@@ -24,6 +24,14 @@ require_once 'core/Autoloader.php';
 // Let's connect the configuration files
 require_once 'config/config.php';
 
+
+if (defined('DEBUG') && DEBUG === true) {
+    error_reporting(E_ALL); 
+    ini_set('display_errors', 1);
+} else {
+    error_reporting(0);
+}
+
 // Initialize request and response objects before loading routes
 $request = new \Core\Request();
 $response = new \Core\Response();
